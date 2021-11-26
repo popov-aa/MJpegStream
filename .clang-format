@@ -1,0 +1,70 @@
+BasedOnStyle: Microsoft
+
+Language:        Cpp
+
+ColumnLimit: '120'
+
+IndentWidth: '4'
+
+AccessModifierOffset: '-4'
+
+AlignConsecutiveAssignments: 'true'
+
+AllowShortCaseLabelsOnASingleLine: 'false'
+
+AllowShortLambdasOnASingleLine: 'All'
+
+AlwaysBreakAfterDefinitionReturnType: 'None'
+
+AlwaysBreakAfterReturnType: 'None'
+
+BreakBeforeTernaryOperators: 'true'
+
+CompactNamespaces: 'true'
+
+FixNamespaceComments: 'true'
+
+AllowShortFunctionsOnASingleLine:  'None'
+AllowShortBlocksOnASingleLine: 'true'
+AlignAfterOpenBracket:  'Align'
+
+AllowShortIfStatementsOnASingleLine:  'Never'
+AllowShortLoopsOnASingleLine:  'false'
+AlwaysBreakTemplateDeclarations: 'Yes'
+
+BinPackArguments: 'false'
+BinPackParameters: 'false'
+
+BreakBeforeBinaryOperators: 'All'
+
+Cpp11BracedListStyle: 'true'
+IndentWrappedFunctionNames:  'false'
+
+PointerAlignment: 'Left'
+SpaceAfterCStyleCast: 'false'
+SpaceAfterTemplateKeyword:  'false'
+SpacesInCStyleCastParentheses:  'false'
+SpacesInParentheses: 'true'
+
+IndentCaseLabels: 'true'
+
+#IndentCaseBlocks: 'false'
+BraceWrapping:
+    AfterControlStatement: true
+    AfterCaseLabel: true
+    AfterClass: true
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: true
+    AfterStruct: true
+    AfterUnion: true
+    AfterExternBlock: true
+    BeforeCatch: true
+    BeforeElse: true
+    #BeforeLambdaBody: true
+    #BeforeWhile: true
+    AfterObjCDeclaration: true
+    IndentBraces: false
+    SplitEmptyFunction: true
+    SplitEmptyRecord: true
+    SplitEmptyNamespace: true
